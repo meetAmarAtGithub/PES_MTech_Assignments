@@ -1,0 +1,17 @@
+$ git init
+$ git branch
+
+
+$ git remote-v
+$ git remote add origin "https://github.com/meetAmarAtGithub/PES_MTech_Assignments.git"
+
+$ git pull origin (Default branch will pull)/ $ git pull origin master
+
+$ git status
+$ git add . / $ git add "GitCommands.txt"
+$ git commit . / $ git commit -m "New file added"
+
+$ git config --global user.email "meetamar@outlook.com"
+$ git config --global user.name "Amar"
+
+$ git push origin master
