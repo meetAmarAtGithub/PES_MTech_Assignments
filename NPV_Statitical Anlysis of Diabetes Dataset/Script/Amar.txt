@@ -1,0 +1,31 @@
+Good morning everyone. Today we explore Visual Exploration and Analysis of Diabetes Dataset.
+
+To start with, our dataset has a total of 768 rows. The data refers to females ages between 21 to 81 years.
+There are total nine attributes can be further classified as- 
+ Six attributes describe the result of physical / verbal examination
+  1) Number of times pregnant
+  2) Diastolic blood pressure
+  3) Triceps skin fold thickness
+  4) Body mass index 
+  5) Diabetes pedigree function - a function which scores probability of getting diabetes based on family history
+  6) Age in years
+
+B) Two attributes are result of chemical examination
+  7) Plasma glucose concentration over 2 hours in an oral glucose tolerance test
+  8) 2-Hour serum insulin
+
+
+C) Resultant Target Variable
+  9) Class variable - where 0 stands for non-diabetic, and 1 stands for diabetic
+
+The Objective of this data analysis is to find the significant factors in the first 8 variables which influence the 9th variable that is diabetes or not, through data analysis and visualization techniques using Python.
+
+Diabetic Dataset and Jupyter program is hosted in Github to enable concurrent and collabrative working within the team.
+
+First, we are reading data from github repository.
+Next, we are checking info of data frame.
+We have 9 columns, 768 rows and data types of all columns are displayed below.
+Next, we are checking for NaN in the data frame. WE can see here there is no NaN Data frame. 
+Finally, we are checking for duplicate rows in the data frame and there is no duplicate rows as well.
+
+Next, I will invite Dinesh to explain about Data Cleaning and exploration.
