@@ -1,11 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Analysis of a Diabetes Dataset</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 <style type="text/css">
@@ -14260,7 +14258,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"></p>
-<div style="font-family: 'Tangerine', serif; text-align:center; font-size: 35px; text-shadow: 4px 4px 4px #aaa;"> A Visual Exploration and Analysis <br/><br/>of Diabetes Dataset</div>
+<div style="font-family: 'Tangerine', serif; text-align:center; font-size: 70px; text-shadow: 4px 4px 4px #aaa;"> A Visual Exploration and Analysis <br/><br/>of Diabetes Dataset</div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14331,7 +14329,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<hr>
 <p><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"><br>
 <a id="DataDescription"></p>
 <p><div style="font-family: 'Roboto', serif; text-align:center; font-size: 40px; text-align:center;"><br/> 2. Data Description</div>
@@ -14599,7 +14597,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>There is no NaN in dataframe.</p>
+<p><font color='blue'><b> Observation :</font> <br>There is no NaN in dataframe.</p>
 
 </div>
 </div>
@@ -14651,13 +14649,13 @@ Index: []
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>There are no duplicate rows <br></p>
+<p><font color='blue'><b> Observation :</font> <br>There are no duplicate rows <br></p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<hr>
 <p><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"><br>
 <a id="DataCleaning"></p>
 <p><div style="font-family: 'Roboto', serif; text-align:center; font-size: 40px; text-align:center;"><br/>3. DataCleaning</div>
@@ -14887,7 +14885,7 @@ dtype: float64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>
+<p><font color='blue'><b> Observation :</font> <br>
 Minimum values for many variables are 0.<br>
 As biological parameters like Glucose, BP, Skin thickness,Insulin &amp; BMI cannot have zero values, looks like null values have been coded as zeros <br>
 As a next step, find out how many Zero values are included in each variable</p>
@@ -14950,12 +14948,12 @@ dtype: int64
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>
+<p><font color='blue'><b> Observation :</font> <br>
 Preganancy and Result can have zero values hence ignored <br>
 As Zero count of Glucose (5) , Blood Pressure (35) and BMI (11) are low it is recommended to remove the Zeros uniformly for these 3 variables <br>
 As Zero Counts of Insulin (374)  and Skin Thicknesss 227, in a 768 data set need to be investigated to prevent ~ 50% sample size reduction <br>
 As a next step, suitablity of Mean or Median replacement will be investigated</p>
-<p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<hr>
 
 </div>
 </div>
@@ -15802,7 +15800,7 @@ memory usage: 56.6 KB
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>we have been able to clean the dataframe with only 6% (768 to 724 rows) data loss with this.</p>
-<h4 id="Data-Frame-Cleaning-Completed">Data Frame Cleaning Completed<a class="anchor-link" href="#Data-Frame-Cleaning-Completed">&#182;</a></h4><p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<h4 id="Data-Frame-Cleaning-Completed">Data Frame Cleaning Completed<a class="anchor-link" href="#Data-Frame-Cleaning-Completed">&#182;</a></h4><hr>
 
 </div>
 </div>
@@ -15984,11 +15982,11 @@ dtype: float64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>
+<p><font color='blue'><b> Observation :</font> <br>
 Insulin and Pedigree are right skewed with long tail<br>
 Glucose and Results are left skewed , rest of the variables are more or less centered<br>
 there are no bi modal series that is there is no demarkated sub grouping boundaries</p>
-<p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<hr>
 
 </div>
 </div>
@@ -16061,7 +16059,7 @@ there are no bi modal series that is there is no demarkated sub grouping boundar
 there is large overlap in distribution between diabetic and non diabetic sub group<br>
 Glucose with other variables shown some distint groupingv
 Further investatigation to be done with Pearson Correlation and plot heat maps</p>
-<p>&lt;hr style=\"border:2px solid gray\"&gt; &lt;/hr&gt;</p>
+<hr>
 
 </div>
 </div>
@@ -16248,7 +16246,7 @@ Further investatigation to be done with Pearson Correlation and plot heat maps</
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -16313,7 +16311,7 @@ Further investatigation to be done with Pearson Correlation and plot heat maps</
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -16431,9 +16429,9 @@ Further investatigation to be done with Pearson Correlation and plot heat maps</
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color='blue'><b> Observation :</font> &lt;/b&gt; <br>
+<p><font color='blue'><b> Observation :</font> <br>
 we can see from ranking , glucose followed by other variables is most co related to results , however from heat map we also saw that glucose is equally co related to insulin , hence they react in tandem and only one of this variable is to be considered in building model to avoid inflation variance<br>
-    <hr style="border:2px solid gray"> </hr></p>
+    <hr>
 
 </div>
 </div>
@@ -16450,7 +16448,7 @@ we can see from ranking , glucose followed by other variables is most co related
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">Density and Distribution plotting using Violin plot to get data-distribution of:<a class="anchor-link" href="#Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">&#182;</a></h3><p><li>Serum Insulin</li></p>
 <p><li>Plasma Glucose</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -16520,14 +16518,14 @@ we can see from ranking , glucose followed by other variables is most co related
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Result:">Result:<a class="anchor-link" href="#Result:">&#182;</a></h3><p><li><b>Insulin:</b> Higher Insulin level indicates the presence of higher amount of blood sugar. For majority of Diabetic patients(violin plot - mean as well as density), 2 hr-Insulin level is higher(@170-180mu), while for Non-Diabetic patients it is around 100. The distplot shows that as insulin level increases, so does the count of the diabetic people</li></p>
 <p><li><b>Plasma Glucose Level:</b> Diabetes is caused when the blood sugar level is too high. There is a clear difference in the mean values of PGC level between Diabetic(142-145) and Non-Diabetic(108-110) sample. The distplot clearly depicts that healthier sample is at lower glucose levels, while with increase in glucose level, the no. of diabetic patients increase</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">Density and Distribution plotting using Violin plot to get data-distribution of:<a class="anchor-link" href="#Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">&#182;</a></h3><p><li>BMI</li></p>
 <p><li>Triceps Skin Thickness</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -16602,14 +16600,14 @@ we can see from ranking , glucose followed by other variables is most co related
 <p><li><b>Tricep Skin Thickness:</b> Diabetes causes a condition leading to increase in the thickness 
     of the skin. The dist plot clearly shows that majority of diabetic patients are having thicker
     skin at triceps as compared to healthier sample.</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">Density and Distribution plotting using Violin plot to get data-distribution of:<a class="anchor-link" href="#Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">&#182;</a></h3><p><li>Age</li></p>
 <p><li>Pregnancy Count</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -16681,14 +16679,14 @@ we can see from ranking , glucose followed by other variables is most co related
 <p><li><b>No of Times Pregnant:</b> The violin plot for pregnancies as well as the dist plot shows it clearly
 that the highest density of the both diabetic and non-diabetic sample can lie in the same range. This leaves 
 this information as non-deterministic wrt chances of being diabetic</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">Density and Distribution plotting using Violin plot to get data-distribution of:<a class="anchor-link" href="#Density-and-Distribution-plotting-using-Violin-plot-to-get-data-distribution-of:">&#182;</a></h3><p><li>Pedigree</li></p>
 <p><li>Blood Pressure</li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -16760,7 +16758,7 @@ the value of the pedigree, still the data at the max density is overlapping in b
 very clear indicator of determining if somebody is diabetic or not.</li></p>
 <p><li><b>Blood Pressure:</b> This is usually a very clear indicator, as diabetic patients have caused damage to 
 their blood vessels due to increase in blood glucose level. But in the given dataset, the count of non-diabetic individuals with normal blood pressure of 80 is much high(388), as compared to the count of diabetic individuals with blood pressure above 100(9). This has caused the data to not clearly emphasize the impact of blood pressure on Diabetes </li></p>
-<hr style="border:.2px solid gray"> </hr>
+<hr>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
