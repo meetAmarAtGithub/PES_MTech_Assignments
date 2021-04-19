@@ -20,10 +20,21 @@ $ git diff ...origin
 #####---
 
 $ git status
-$ git add . / $ git add "GitCommands.txt"
-$ git commit . / $ git commit -m "New file added"
+
+$ git add . 
+$ git add --all 
+$ git add "GitCommands.txt"
+
+
+$ git commit . 
+$ git commit -m "New file added"
+$ git commit -a
 
 $ git config --global user.email "meetamar@outlook.com"
 $ git config --global user.name "Amar"
 
 $ git push origin master
+
+
+
+$ git reset --hard HEAD~1

@@ -1,7 +1,7 @@
-Good morning everyone. Today we explore Visual Exploration and Analysis of Diabetes Dataset.
+Good morning everyone. Today we will explore Visual Exploration and Analysis of Diabetes Dataset.
 
 To start with, our dataset has a total of 768 rows. The data refers to females ages between 21 to 81 years.
-There are total nine attributes can be further classified as- 
+There are total nine attributes in the dataset and it can be further classified as- 
  Six attributes describe the result of physical / verbal examination
   1) Number of times pregnant
   2) Diastolic blood pressure
